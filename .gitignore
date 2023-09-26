@@ -1,6 +1,7 @@
 .idea
 allure-results
 .env
+notifications
 
 ### Python template
 # Byte-compiled / optimized / DLL files
