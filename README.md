@@ -59,7 +59,7 @@
 4. Теперь можно подставить полученные данные **ACCOUNT_USERNAME**, **CLIENT_ID** и **ACCESS_TOKEN** в личный <code>.env</code> файл или настройки job в jenkins и успешно провести тестирование.
 
 ### Локальный запуск тестов:
-Для локального запуска со значениями по умолчанию необходимо выполнить следующую команду в директории репозитория:
+Для локального запуска со значениями по умолчанию необходимо преименовать файл <code>.env.public</code> в <code>.env</code> и выполнить следующую команду в директории репозитория:
 ```
 python -m venv .venv
 source .venv/bin/activate
@@ -69,12 +69,12 @@ pytest .
 ```
 Для локального запуска со значениями **вашей** учётной записи необходимо создать файл <code>.env</code> в корневой директории репозитория и подставить в него значения вашего аккаунта (**ACCOUNT_USERNAME**, **CLIENT_ID**, **ACCESS_TOKEN**) по аналогии с файлом <code>.env.public</code>.
 
-Пример файла <code>.env.public</code> - <a href='https://github.com/artyomzhoy/qa_guru_diploma/blob/main/.env.public'>.env.public</a>
+Пример файла <code>.env</code> - <a href='https://github.com/artyomzhoy/qa_guru_diploma/blob/main/.env.public'>.env.public</a>
 
 ### Удалённый запуск тестов:
 Для удалённого запуска API-тестов, в разделе **Сборка**, необходимо добавить шаг по созданию/изменению .env-файла с данными вашей учетной записи сервиса <code>imgur.com</code>(**ACCOUNT_USERNAME**, **CLIENT_ID**, **ACCESS_TOKEN**), либо с тестовыми данными, указанными в файле <code>.env.public</code>.
 
-Пример файла <code>.env.public</code> - <a href='https://github.com/artyomzhoy/qa_guru_diploma/blob/main/.env.public'>.env.public</a>
+Пример файла <code>.env</code> - <a href='https://github.com/artyomzhoy/qa_guru_diploma/blob/main/.env.public'>.env.public</a>
 
 <img width="50%" src="images/screen/env.png"/>
 
