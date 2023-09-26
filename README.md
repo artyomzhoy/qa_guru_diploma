@@ -95,6 +95,6 @@ pytest .
 
 ### Telegram
 
-Также, отчёт о результатах тестирования отправляется в <a href='https://github.com/artyomzhoy/qa_guru_diploma/blob/main/.env.public'>Telegram бота</a>.
+Также, отчёт о результатах тестирования отправляется в <a href='https://t.me/zhoy_allure_reports'>Telegram бота</a>.
 
 <img width="50%" src="images/screen/allure.png"/>
