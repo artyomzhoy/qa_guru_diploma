@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "items": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "url": {
+                  "type": "string"
+                }
+              }
+            }
+          ]
+        },
+        "next": {
+          "type": "null"
+        }
+      }
+    },
+    "success": {
+      "type": "boolean"
+    },
+    "status": {
+      "type": "integer"
+    }
+  }
+}

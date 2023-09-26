@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "url": {
+          "type": "string"
+        },
+        "bio": {
+          "type": "null"
+        },
+        "avatar": {
+          "type": "string"
+        },
+        "reputation": {
+          "type": "integer"
+        },
+        "reputation_name": {
+          "type": "string"
+        },
+        "created": {
+          "type": "integer"
+        },
+        "pro_expiration": {
+          "type": "boolean"
+        },
+        "user_follow": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    },
+    "success": {
+      "type": "boolean"
+    },
+    "status": {
+      "type": "integer"
+    }
+  }
+}
