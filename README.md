@@ -84,10 +84,10 @@ pytest .
 
 В каждом тесте указаны:
 
- - Pre-request/post-request steps, если они необходимы
- - Статус-код запроса
- - Curl запроса
- - Response сервера
+ - Pre-request/post-request steps, если они необходимы;
+ - Статус-код запроса;
+ - Curl запроса;
+ - Response сервера.
 
 <img width="75%" src="images/screen/main_report.png"/>
 
